@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smartbox.SeaweedFs.Client.Test", "test\smartbox.SeaweedFs.Client.Test.csproj", "{B4F31351-3E5D-4E34-8136-890B0DAEF199}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smartbox.SeaweedFs.Client", "src\smartbox.SeaweedFs.Client.csproj", "{7F93F17C-89D5-41EA-B17E-14F6F98AC739}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution files", "Solution files", "{5387A642-6B2C-44C4-B8A3-89041BE78DC4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.travis.yml = .travis.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F31351-3E5D-4E34-8136-890B0DAEF199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F31351-3E5D-4E34-8136-890B0DAEF199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F31351-3E5D-4E34-8136-890B0DAEF199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F31351-3E5D-4E34-8136-890B0DAEF199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F93F17C-89D5-41EA-B17E-14F6F98AC739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F93F17C-89D5-41EA-B17E-14F6F98AC739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F93F17C-89D5-41EA-B17E-14F6F98AC739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F93F17C-89D5-41EA-B17E-14F6F98AC739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
