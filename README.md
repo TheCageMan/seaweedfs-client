@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/TheCageMan/seaweedfs-client.svg?branch=master)](https://travis-ci.org/TheCageMan/seaweedfs-client)
 [![codecov](https://codecov.io/gh/TheCageMan/seaweedfs-client/branch/master/graph/badge.svg)](https://codecov.io/gh/TheCageMan/seaweedfs-client)
 [![GitHub Release](http://img.shields.io/badge/Release-1.0.0.RELEASE-brightgreen.svg)](https://github.com/TheCageMan/seaweedfs-client-dotnet-core/releases/tag/1.0.0.RELEASE)
 [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
