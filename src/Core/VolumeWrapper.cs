@@ -136,7 +136,7 @@ namespace smartbox.SeaweedFs.Client.Core
                 HttpMethod.Get,
                 new Uri(url + "/" + fileId)
             );
-            var result = await _connection.FetchStreamCacheByRequest(request);
+            var result = await _connection.FetchStreamByRequest(request);
             ConvertResponseStatusToException((int)result.StatusCode, url, fileId, false, false, false, false);
             return result;
         }

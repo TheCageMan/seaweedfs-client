@@ -256,14 +256,14 @@ namespace smartbox.SeaweedFs.Client.Core
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        public async Task<StreamResponse> FetchStreamCacheByRequest(HttpRequestMessage request)
+        public async Task<StreamResponse> FetchStreamByRequest(HttpRequestMessage request)
         {
             HttpResponseMessage response = null;
             StreamResponse result;
             try
             {
                 response = await HttpClient.SendAsync(request);
-                result = new StreamResponse(await response.Content.ReadAsStreamAsync(), response.StatusCode);
+                result = new StreamResponse(response.Content.ReadAsStreamAsync().Result, response.StatusCode);
             }
             finally 
             {
